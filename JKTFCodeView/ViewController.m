@@ -2,11 +2,12 @@
 //  ViewController.m
 //  JKTFCodeView
 //
-//  Created by anfa on 2019/4/16.
+//  Created by anfa on 2019/5/7.
 //  Copyright © 2019 anfa. All rights reserved.
 //
 
 #import "ViewController.h"
+
 #import "JKTFSquareView.h"        // 方块 - 有光标
 #import "JKTFCursorView.h"        // 下划线 - 有光标
 
@@ -96,6 +97,5 @@
     [self.code2View endEditing:YES];
     
 }
-
 
 @end
